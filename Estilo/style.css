@@ -1,6 +1,7 @@
 body{
     height: 100%;
     width: 95%;
+    
 }
   
 
@@ -10,37 +11,26 @@ body{
     
 }
 
+
+
 #cabecalho a {
     font-weight: bolder;
 }
 
-
-
-.quem_sou_eu{
-    margin-left: 10px;
-    padding-left: 10px; 
-    padding: 20px;
+.entrar{
+    margin-right: 5px;
 }
 
-.quem_sou_eu h2 {
-
-    margin-top: 10px; 
-    margin-bottom: 10px; 
-    font-weight: bold; 
-    color: #414141; 
-    font-family: Arial, Helvetica, sans-serif;
+.cadastro{
+    margin-right: 5px;
 }
 
-.quem_sou_eu img {
+.cartoes_medicos{
     
-    height: 10rem; 
-    width: 10rem; 
-    border-radius: 50%; 
-    margin-right: 10px;
-    
+    max-width: 80%;
+    padding-right: 5px;
+    padding-left: 5px;
 }
-
-
 
 .trabalhos_recentes{
     background-color: white; 
@@ -68,47 +58,48 @@ body{
 }          
 
 
-.construsite{
-    margin-left: 10px; 
-    background-color: rgb(238, 238, 238); 
-    padding-left: 10px;
-    padding-top: 10px;
-}
 
-
-.locaweb{
-    margin-left: 10px; 
-    background-color: white; 
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-.microsoft{
-    margin-left: 10px; 
-    background-color: #eeeeee; 
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-
-
-#projetos_recentes{
+#Instrucoes{
     padding: 20px;
 }
 
-#projetos_recentes h2{
+#Instrucoes h2{
     font-weight: bold; 
     color: #414141; 
     font-family: Arial, Helvetica, sans-serif;
 }          
 
-#projetos_recentes button{
+#Instrucoes button{
     font-weight: bolder; 
     color: #ffffff; 
     background-color: gray; 
     border-color: gray;
     margin-left: 10px; 
     margin-bottom: 10px;
+}
+
+.ChatBot{
+    margin-left: 10px;
+    padding-left: 10px; 
+    padding: 20px;
+}
+
+.ChatBot h2 {
+
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+    color: #414141; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ChatBot img {
+    
+    height: 10rem; 
+    width: 10rem; 
+    border-radius: 50%; 
+    margin-right: 10px;
+    
 }
 
 
@@ -184,20 +175,16 @@ body{
 
             /***FOOTER***/
             
-.footer{ max-width: 100%;
-    font-weight: bolder;
-    color: rgb(70, 70, 70);
-    padding: 20px;
-    background: #f5f5f5;
-    position: absolute;  
+.footer{
+    background-color: #f5f5f5;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px; 
+    margin-left: 10px;
 }
 
 .copy{
     align-content: center;
-}
-
-.logo_footer{
-    position:absolute; 
-    top: 20px;; 
-    right:20px;
 }
